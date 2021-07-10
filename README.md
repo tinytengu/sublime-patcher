@@ -1,6 +1,10 @@
 # sublime-patcher
 Bash script for patching/cracking Sublime Text on Linux including newest build 4107
 
+> **NOTE**
+> 
+> This script only works with an *apt* installation of Sublime Text, *snap* package cannot be supported because of it's read-only structure.
+
 ## Usage
 ### Patching (cracking)
 1. Clone repository

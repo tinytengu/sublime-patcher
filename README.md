@@ -8,7 +8,7 @@ Bash script for patching/cracking Sublime Text on Linux including newest build 4
 ## Usage
 ### Patching (cracking)
 1. Clone repository
-2. Add exec rights to the scrpt if needed
+2. Add exec rights to the script if needed
 ```bash
 chmod +x ./sublime_patch.sh
 ```

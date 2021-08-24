@@ -25,8 +25,8 @@ prompt_yn() {
 
 get_license_path() {
   locations=(
-    "/home/$SUDO_USER/.config/sublime-text/Local/"
-    "/home/$SUDO_USER/.config/sublime-text-3/Local/"
+    "/home/$SUDO_USER/.config/sublime-text/Local"
+    "/home/$SUDO_USER/.config/sublime-text-3/Local"
   )
   for i in "${locations[@]}"; do
     if [ -d "$i" ]; then

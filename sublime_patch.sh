@@ -31,6 +31,7 @@ get_license_path() {
   for i in "${locations[@]}"; do
     if [ -d "$i" ]; then
       echo "$i/License.sublime_license"
+      break
     fi
   done
 }

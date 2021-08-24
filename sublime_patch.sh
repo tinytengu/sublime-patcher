@@ -23,6 +23,18 @@ prompt_yn() {
 	esac
 }
 
+get_license_path() {
+  locations=(
+    "/home/$SUDO_USER/.config/sublime-text/Local/"
+    "/home/$SUDO_USER/.config/sublime-text-3/Local/"
+  )
+  for i in "${locations[@]}"; do
+    if [ -d "$i" ]; then
+      echo "$i/License.sublime_license"
+    fi
+  done
+}
+
 backup() {
 	echo "Backing up '${1}' to '${2}'"
 	sudo cp "${1}" "${2}"
@@ -77,7 +89,7 @@ BUILD=$(subl --version | sed -E "s/Sublime Text Build ([0-9]+)/\1/")
 echo "Sublime Text ($BUILD) detected"
 
 # License file path
-LICENSE="/home/$SUDO_USER/.config/sublime-text/Local/License.sublime_license"
+LICENSE=$(get_license_path)
 
 # Making backup
 BACKUP="${FILE}_backup"

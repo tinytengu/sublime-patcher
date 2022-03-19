@@ -1,5 +1,10 @@
 # sublime-patcher
-Bash script for patching/cracking Sublime Text on Linux including newest build 4107
+
+Bash script for patching/cracking Sublime Text on Linux including newest (not anymore) build 4107
+
+![GPL-3.0 License](https://img.shields.io/github/license/tinytengu/sublime-patcher) 
+![Total lines](https://img.shields.io/tokei/lines/github/tinytengu/sublime-patcher)
+![File size](https://img.shields.io/github/size/tinytengu/sublime-patcher/sublime_patch.sh)
 
 > **NOTES**
 > 

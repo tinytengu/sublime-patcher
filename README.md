@@ -28,6 +28,7 @@ python3 main.py
   ![Registered](https://i.imgur.com/nNZbezS.png)
 
 </details>
+
 ### Adding new Sublime Text version to crack
 Since this implementation supports an easy way to add new Sublime Text versions as soon as people find the way to crack it, you can contribute and add patches for newer versions in `patterns.json` file which contains HEX patterns to mess with.
 

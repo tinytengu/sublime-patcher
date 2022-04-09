@@ -23,8 +23,11 @@ python3 main.py
 
 <details>
   <summary>Screenshots</summary>
+  
   ![Unregistered](https://i.imgur.com/IMOuvhW.png)
+  
   ![Process](https://i.imgur.com/9GvdpJJ.png)
+  
   ![Registered](https://i.imgur.com/nNZbezS.png)
 
 </details>

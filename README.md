@@ -15,7 +15,7 @@ Unlike the previous Bash script, this implementation supports both Windows and L
 ## Usage
 ### Cracking
 1. Clone repository
-2. Run `main.py` as an administrator on Linux or superuser on Linux
+2. Run `main.py` as an administrator on Windows or superuser on Linux
 ```bash
 python3 main.py
 ```
